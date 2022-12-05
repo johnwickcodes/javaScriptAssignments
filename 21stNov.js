@@ -10,6 +10,19 @@ Following are the Designation of the people
 
 
 */
+let list={Alex: "Developer", Strek:"Singer",John:"Artist",Smith:"Actor" };
+
+
+
+function post(name){
+   
+    console.log(name+ " is a "+list[name]);
+   }
+
+
+
+   name="Strek"; // By changing name variable we can print the job designation of the person
+post(name);
 
 /*
 
